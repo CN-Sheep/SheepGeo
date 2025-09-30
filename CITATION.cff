@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this framework in your research, please cite it as below."
+type: software
+title: "SHEEP-GEO: A Scientific Framework for Generative Engine Optimization Assessment"
+version: "3.0"
+date-released: "2025-01-15"
+url: "https://github.com/your-username/sheep-geo-framework"
+repository-code: "https://github.com/your-username/sheep-geo-framework"
+license: "Academic Use License"
+authors:
+  - family-names: "SHEEP-GEO"
+    given-names: "Framework Team"
+    email: "admin@sheepgeo.com"
+abstract: >
+  SHEEP-GEO is a scientific assessment framework for evaluating
+  website performance in Generative Engine Optimization (GEO).
+  The framework provides a five-dimensional assessment model
+  (Semantic Coverage, Human Credibility, Evidence Structuring,
+  Ecosystem Integration, Performance Monitoring) grounded in
+  established theories from information science, cognitive
+  psychology, and behavioral economics.
+keywords:
+  - GEO
+  - "Generative Engine Optimization"
+  - SEO
+  - "AI search"
+  - "Large Language Models"
+  - "Website optimization"
+  - "Information retrieval"
+  - "Semantic web"
+preferred-citation:
+  type: report
+  title: "SHEEP-GEO: A Scientific Framework for Generative Engine Optimization Assessment"
+  authors:
+    - family-names: "SHEEP-GEO"
+      given-names: "Framework Team"
+  year: 2025
+  institution:
+    name: "SHEEP-GEO Research Group"
+  version: "3.0"

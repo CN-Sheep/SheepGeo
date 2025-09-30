@@ -1,0 +1,158 @@
+SHEEP-GEO FRAMEWORK ACADEMIC USE LICENSE
+
+Version 1.0, January 2025
+
+Copyright (c) 2025 SHEEP-GEO Framework Team
+
+PREAMBLE
+
+The SHEEP-GEO Framework is a scientific assessment methodology for Generative
+Engine Optimization (GEO). This license is designed to encourage academic research
+and educational use while protecting the framework's integrity and commercial applications.
+
+DEFINITIONS
+
+"Framework" refers to the SHEEP-GEO theoretical model, including dimension
+definitions, weighting schemes, methodologies, and assessment criteria as
+documented in this repository.
+
+"Academic Use" means use for research, education, or non-commercial analysis
+without intent to generate revenue or commercial advantage.
+
+"Commercial Use" means any use intended for or directed toward commercial
+advantage or monetary compensation.
+
+TERMS AND CONDITIONS
+
+1. PERMITTED USES
+
+Subject to the terms of this license, you are granted a non-exclusive, worldwide,
+royalty-free right to:
+
+   a) Use the Framework for academic research and educational purposes
+   b) Cite and reference the Framework in academic publications
+   c) Create derivative theoretical works with proper attribution
+   d) Conduct empirical validation studies
+   e) Share analysis results generated using the Framework (with attribution)
+   f) Translate documentation for educational purposes
+
+2. ATTRIBUTION REQUIREMENTS
+
+Any use of the Framework must include:
+
+   a) Clear attribution to "SHEEP-GEO Framework Team"
+   b) Link to the official repository: [GitHub URL]
+   c) Version number of the Framework used
+   d) The following citation in academic works:
+
+      SHEEP-GEO Framework Team (2025). SHEEP-GEO: A Scientific Framework
+      for Generative Engine Optimization Assessment. Version 3.0.
+
+3. PROHIBITED USES
+
+The following uses are explicitly prohibited without prior written permission:
+
+   a) Commercial use of the Framework or its implementations
+   b) Reverse engineering the Framework for competitive purposes
+   c) Offering paid services based on the Framework
+   d) Incorporating the Framework into commercial products or services
+   e) Claiming ownership or exclusive rights to the Framework
+   f) Misrepresenting the Framework's capabilities or limitations
+   g) Removing or altering copyright notices or attributions
+
+4. DERIVATIVE WORKS
+
+   a) Derivative theoretical works must be clearly marked as such
+   b) Modifications must be documented with justifications
+   c) Derivative works must be shared under compatible terms
+   d) Original attribution must be preserved
+
+5. NO WARRANTY
+
+THE FRAMEWORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+The Framework is experimental and results are indicative rather than predictive.
+No guarantees are made regarding:
+   - Accuracy of assessments
+   - Correlation with actual AI recommendation rates
+   - Applicability to specific use cases
+   - Future validity as AI systems evolve
+
+6. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE FRAMEWORK OR THE USE OR OTHER DEALINGS
+IN THE FRAMEWORK.
+
+This includes but is not limited to:
+   - Business decisions based on Framework assessments
+   - Financial losses from optimization efforts
+   - Opportunity costs or competitive disadvantages
+   - Technical failures or errors in implementation
+
+7. COMMERCIAL LICENSING
+
+For commercial use, please contact:
+   Email: [admin@sheepgeo.com](mailto:admin@sheepgeo.com)
+   Website: [https://www.sheepgeo.com/licensing](https://www.sheepgeo.com/licensing)
+
+Commercial licenses are available with:
+   - Implementation support
+   - Custom adaptations
+   - Priority updates
+   - Liability coverage
+
+8. RESEARCH DATA SHARING
+
+If you publish research using the Framework:
+   a) Share validation datasets when possible (anonymized)
+   b) Disclose methodology clearly
+   c) Report both positive and negative findings
+   d) Notify maintainers of published work for citation tracking
+
+9. TERMINATION
+
+This license automatically terminates if you:
+   a) Violate any terms of this license
+   b) Misrepresent the Framework or its capabilities
+   c) Use the Framework for prohibited purposes
+   d) Fail to provide required attributions
+
+Upon termination, you must:
+   a) Cease all use of the Framework
+   b) Remove Framework-derived content from publications (where possible)
+   c) Destroy all copies of Framework documentation
+
+10. GOVERNING LAW
+
+This license shall be governed by and construed in accordance with the laws
+of [Your Jurisdiction], without regard to its conflict of law provisions.
+
+11. ENTIRE AGREEMENT
+
+This license constitutes the entire agreement between you and the copyright
+holders regarding the use of the Framework and supersedes all prior agreements.
+
+12. UPDATES TO LICENSE
+
+The copyright holders reserve the right to update this license. Continued use
+of updated Framework versions constitutes acceptance of new terms.
+
+---
+
+CONTACT INFORMATION
+
+General Inquiries: [admin@sheepgeo.com](mailto:admin@sheepgeo.com)
+Academic Collaboration: [admin@sheepgeo.com](mailto:admin@sheepgeo.com)
+Commercial Licensing: [admin@sheepgeo.com](mailto:admin@sheepgeo.com)
+GitHub Issues: [repository-url/issues]
+
+---
+
+ACKNOWLEDGMENT
+
+By using the SHEEP-GEO Framework, you acknowledge that you have read, understood,
+and agree to be bound by the terms of this license.
