@@ -2,6 +2,8 @@
 
 <div align="center">
 
+<img src="logo.svg" alt="SHEEP-GEO Logo" width="120" height="155">
+
 ![Version](https://img.shields.io/badge/version-3.0-blue)
 ![License](https://img.shields.io/badge/license-Academic%20Use-green)
 ![Framework](https://img.shields.io/badge/framework-GEO-orange)
