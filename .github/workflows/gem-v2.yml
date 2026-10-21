@@ -1,0 +1,38 @@
+name: GEM v2 component
+
+on:
+  push:
+    paths:
+      - 'packages/sheep-gem-v2/**'
+      - '.github/workflows/gem-v2.yml'
+  pull_request:
+    paths:
+      - 'packages/sheep-gem-v2/**'
+      - '.github/workflows/gem-v2.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        node: [20, 22, 24]
+    defaults:
+      run:
+        working-directory: packages/sheep-gem-v2
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: ${{ matrix.node }}
+          package-manager-cache: false
+      - run: node verify-release.mjs
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: npm test
+      - run: node verify-release.mjs
+      - run: node examples/synthetic.mjs

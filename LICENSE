@@ -1,3 +1,19 @@
+LICENSE SCOPE
+
+The Academic Use License below applies to the existing framework documents.
+The standalone component under packages/sheep-gem-v2/ is expressly excluded
+from those restrictions and is licensed under the MIT License included in
+that directory. Its source, included scoring rules and formulas, compiled
+output, examples, tests and component documentation may be used, modified,
+distributed, sublicensed and sold under MIT, including for commercial use,
+without obtaining a separate framework commercial license. In case of a
+conflict, the component's MIT License governs that component.
+
+This exception does not license the commercial application, infrastructure,
+customer data, datasets, or other existing framework documents under MIT.
+
+---
+
 SHEEP-GEO FRAMEWORK ACADEMIC USE LICENSE
 
 Version 1.0, January 2025

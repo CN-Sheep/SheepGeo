@@ -1,6 +1,7 @@
 # Pull Request
 
 ## Type of Change / 变更类型
+- [ ] Scoring component code or tests / 评分组件代码或测试
 - [ ] Documentation improvement / 文档改进
 - [ ] Theoretical refinement / 理论完善
 - [ ] Bug fix / 错误修复
@@ -59,7 +60,8 @@ Relates to #
 - [ ] My changes follow the framework's style / 我的更改遵循框架风格
 - [ ] I have provided proper attribution / 我已提供适当的署名
 - [ ] I have tested my changes / 我已测试我的更改
-- [ ] I agree to the Academic Use License / 我同意学术使用许可
+- [ ] I agree to the applicable license: MIT for the GEM v2 component; Academic Use for existing framework documents / 我同意对应许可：GEM v2 组件为 MIT，原有框架文档为学术使用许可
+- [ ] Examples and fixtures contain no real customer or infrastructure data / 示例和测试不含真实客户或基础设施数据
 
 ## Additional Notes / 附加说明
 Any other information reviewers should know.

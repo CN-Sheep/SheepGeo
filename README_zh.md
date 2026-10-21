@@ -5,7 +5,8 @@
 <img src="logo.svg" alt="SHEEP-GEO Logo" width="120" height="155">
 
 ![Version](https://img.shields.io/badge/version-3.0-blue)
-![License](https://img.shields.io/badge/license-Academic%20Use-green)
+![Documentation license](https://img.shields.io/badge/docs-Academic%20Use-green)
+[![Component license](https://img.shields.io/badge/GEM_v2-MIT-blue)](packages/sheep-gem-v2/LICENSE)
 ![Framework](https://img.shields.io/badge/framework-GEO-orange)
 
 **生成式引擎优化(GEO)科学评估框架**
@@ -15,6 +16,20 @@
 </div>
 
 ---
+
+## 可运行的 GEM v2 评分组件
+
+仓库新增 [`packages/sheep-gem-v2`](packages/sheep-gem-v2)，提供采用 **MIT 许可**的独立 TypeScript 五维评分实现。输入匿名观测与网站检查结果，即可离线计算五维分数、GEM 总分与周趋势，无需连接模型、数据库或服务器。
+
+~~~sh
+cd packages/sheep-gem-v2
+node examples/synthetic.mjs
+node --test test/*.test.mjs
+~~~
+
+需要 Node.js 20 及以上；仓库附有编译后的 JavaScript。重新构建时执行 `npm ci` 和 `npm test`。示例及测试全部人工构造，不含真实品牌记录、客户对话、生产配置或凭证。评分属于启发式指标，具体公式与限制见[组件说明](packages/sheep-gem-v2/README.zh-CN.md)。
+
+原有框架文档继续适用学术使用许可；独立组件及其包含的评分实现适用 MIT。商业系统和数据集不包含在仓库中，详见[许可范围](LICENSE)。
 
 ## 📋 目录
 
@@ -411,7 +426,9 @@ const currentHash = crypto.createHash('sha256').update(coreParamsString).digest(
 
 ## 📜 许可证
 
-**学术使用许可**
+**原有框架文档：学术使用许可。独立 GEM v2 组件：[MIT](packages/sheep-gem-v2/LICENSE)。**
+
+以下限制适用于框架文档，不适用于 MIT 组件。
 
 - ✅ **允许**：研究、教育、非商业分析
 - ❌ **禁止**：商业使用、逆向工程、未经许可的再分发
@@ -428,7 +445,7 @@ const currentHash = crypto.createHash('sha256').update(coreParamsString).digest(
 - 🌍 提出其他语言/市场的适配
 - 📊 报告案例研究和实际应用
 
-**注意**：此仓库仅包含**理论框架**。实现代码为专有。
+**代码贡献**：独立 [GEM v2 评分组件](packages/sheep-gem-v2) 接受 MIT 许可下的代码与测试贡献；商业应用仍为专有系统。
 
 ---
 

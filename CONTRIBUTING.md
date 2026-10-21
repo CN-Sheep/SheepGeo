@@ -1,6 +1,6 @@
 # Contributing to SHEEP-GEO Framework
 
-Thank you for your interest in contributing to SHEEP-GEO! This document provides guidelines for contributing to the theoretical framework.
+Thank you for your interest in contributing to SHEEP-GEO! This document provides guidelines for the framework documents. For the MIT-licensed scoring component, see [its contribution guide](packages/sheep-gem-v2/CONTRIBUTING.md).
 
 ## 📋 Table of Contents
 
@@ -15,7 +15,7 @@ Thank you for your interest in contributing to SHEEP-GEO! This document provides
 
 ## 🤝 Ways to Contribute
 
-Since this repository contains the **theoretical framework only** (no implementation code), contributions focus on:
+For framework documents, contributions focus on the areas below. Code and test contributions belong in `packages/sheep-gem-v2/`, under its MIT license. Never include real customer conversations, brand records, credentials or server configuration in issues, examples or pull requests.
 
 ### 1. Framework Improvements
 - Suggest refinements to dimension definitions
@@ -255,7 +255,7 @@ Contributors will be acknowledged in:
 
 ## 📝 License Agreement
 
-By contributing, you agree that your contributions will be licensed under the same Academic Use License as the framework.
+Contributions to framework documents use the existing Academic Use License. Contributions within `packages/sheep-gem-v2/` use that component's MIT License. Mixed changes must retain the applicable license for each part.
 
 ---
 
