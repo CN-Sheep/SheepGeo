@@ -5,7 +5,8 @@
 <img src="logo.svg" alt="SHEEP-GEO Logo" width="120" height="155">
 
 ![Version](https://img.shields.io/badge/version-3.0-blue)
-![License](https://img.shields.io/badge/license-Academic%20Use-green)
+![Documentation license](https://img.shields.io/badge/docs-Academic%20Use-green)
+[![Component license](https://img.shields.io/badge/GEM_v2-MIT-blue)](packages/sheep-gem-v2/LICENSE)
 ![Framework](https://img.shields.io/badge/framework-GEO-orange)
 
 **A Scientific Framework for Generative Engine Optimization (GEO) Assessment**
@@ -15,6 +16,20 @@
 </div>
 
 ---
+
+## Runnable GEM v2 scoring component
+
+The repository includes [`packages/sheep-gem-v2`](packages/sheep-gem-v2), a standalone TypeScript implementation of the SHEEP five-dimensional scoring model, licensed under **MIT**. It calculates scores and weekly trends from anonymous observations and site-check results without connecting to a model, database or server.
+
+~~~sh
+cd packages/sheep-gem-v2
+node examples/synthetic.mjs
+node --test test/*.test.mjs
+~~~
+
+Node.js 20+ is required. Compiled JavaScript is included; to rebuild, run `npm ci` followed by `npm test`. All examples and test inputs are artificial. The component contains no customer conversations, brand records, production configuration or credentials. Scores are explicit heuristics rather than calibrated probabilities; see the component's [methodology and limitations](packages/sheep-gem-v2/METHODOLOGY.md).
+
+The existing framework documents retain their Academic Use License. The MIT license applies to the standalone component and its included scoring implementation; the commercial service and datasets are outside this repository. See [license scope](LICENSE).
 
 ## 📋 Table of Contents
 
@@ -411,7 +426,9 @@ If you use SHEEP-GEO in your research or practice, please cite:
 
 ## 📜 License
 
-**Academic Use License**
+**Framework documents: Academic Use License. Standalone GEM v2 component: [MIT](packages/sheep-gem-v2/LICENSE).**
+
+The restrictions below apply to the framework documents, not to the MIT component.
 
 - ✅ **Permitted**: Research, education, non-commercial analysis
 - ❌ **Prohibited**: Commercial use, reverse engineering, redistribution without attribution
@@ -428,7 +445,7 @@ We welcome contributions to the theoretical framework:
 - 🌍 Propose adaptations for other languages/markets
 - 📊 Report case studies and real-world applications
 
-**Note**: This repository contains the **theoretical framework only**. Implementation code is proprietary.
+**Code contributions**: The standalone [GEM v2 component](packages/sheep-gem-v2) accepts code and test contributions under MIT. The commercial application remains proprietary.
 
 ---
 
@@ -643,7 +660,9 @@ SHEEP-GEO是一个**实验性参考工具**，具有固有局限性：
 
 ## 📜 许可证
 
-**学术使用许可**
+**原有框架文档：学术使用许可。独立 GEM v2 组件：[MIT](packages/sheep-gem-v2/LICENSE)。**
+
+以下限制适用于框架文档，不适用于 MIT 组件。
 
 - ✅ **允许**：研究、教育、非商业分析
 - ❌ **禁止**：商业使用、逆向工程、未经许可的再分发

@@ -1,0 +1,13 @@
+node_modules/
+*.tgz
+.env*
+coverage/
+
+# The parent documentation repository ignores JSON and dist directories.
+# Track the standalone package metadata and ready-to-run release artifacts.
+!package.json
+!package-lock.json
+!tsconfig.json
+!dist/
+!dist/index.js
+!dist/index.d.ts

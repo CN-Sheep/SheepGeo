@@ -1,0 +1,6 @@
+This MIT license covers only this standalone sheep-gem-v2 component.
+It does not relicense the existing SheepGeo framework documentation, commercial
+application, proprietary algorithms, infrastructure, or any customer data.
+Derived from the SheepGeo GEM v2 calculation implementation.
+Standalone adaptation: minimal public types, no application imports or I/O,
+and an as-of-date bound for weekly observations and crawl selection.
